@@ -1,0 +1,97 @@
+.cv-page {
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+  width: 900px;
+  min-height: 900px;
+  margin: 0 auto;
+  box-shadow: 0 0 1px rgba(0,0,0,.5);
+  background-color: #fff;
+  position: relative;
+}
+.cv-document {
+	box-sizing: border-box;
+	border: none;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: arial, sans-serif, tahoma;
+	font-size: 10pt;
+}
+body {
+    margin: 0px;
+}
+.name{
+    color: #0e2452;
+}
+.container {
+    width: 100%;
+    padding: 0px;
+  }  
+  .row {
+    display: flex;
+    margin-bottom: 10px;
+    width: 100%;
+  }  
+  .label {
+    width: 100px;
+    font-weight: bold;
+  }
+  
+
+.photo{
+  border: 1px;
+  position: absolute;
+  top: 4%;
+  right: 40px;
+}
+
+
+
+.section-title {
+  text-transform: uppercase;
+  font-weight: bolder;
+  border-bottom: solid 2px;
+}
+.section {
+  margin: 20px 40px;
+}
+.section-content {
+  display:inline;
+  width: 40px;
+  height: 40px;
+  font-size: 15px;
+}
+
+
+ul {
+  padding-left: 20px;
+  counter-reset: list-counter; /* Đặt lại giá trị của counter */
+}
+li {
+  margin-bottom: 5px; /* Khoảng cách giữa các mục */
+}
+.row1{
+  border-bottom: 1px solid rgb(219, 219, 219);
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+.col1{
+  display: inline-block;
+  width: 20;
+  vertical-align: top;
+}
+.col2{
+  display: inline-block;
+  width: 70%;
+  vertical-align:top;
+
+}
